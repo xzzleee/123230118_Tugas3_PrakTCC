@@ -1,0 +1,35 @@
+### GET ALL NOTES
+GET http://localhost:3000/api/notes
+
+###
+
+### ADD NOTE
+POST http://localhost:3000/api/notes
+Content-Type: application/json
+
+{
+  "judul": "Anak mama..",
+  "isi": "Dino Cynthia Steven"
+}
+
+###
+
+### UPDATE NOTE
+PUT http://localhost:3000/api/notes/3
+Content-Type: application/json
+
+{
+  "judul": "Catatan ke-2",
+  "isi": "Isi sudah diubah"
+}
+
+###
+
+### GET ALL NOTES
+GET http://localhost:3000/api/notes
+
+
+###
+
+### DELETE NOTE
+DELETE http://localhost:3000/api/notes/2
